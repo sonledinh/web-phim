@@ -1,0 +1,223 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-BoldItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-BlackItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Italic.woff2") format("woff2"), url("../fonts/roboto/Roboto-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Black.woff2") format("woff2"), url("../fonts/roboto/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-ThinItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-MediumItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto-LightItalic.woff2") format("woff2"), url("../fonts/roboto/Roboto-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+body {
+  box-sizing: border-box;
+  color: #fff;
+  padding: 0 !important;
+  font-size: 16px;
+  line-height: 1.65;
+  transition: .3s all;
+  position: relative;
+  font-weight: normal;
+  overflow-x: hidden;
+  font-family: 'Roboto';
+  background: #1c0004; }
+  body h1, body h2, body h3, body h4, body h5, body h6, body p, body label, body ul, body li, body .card, body a {
+    text-decoration: none !important;
+    transition: .3s all;
+    margin-bottom: 0;
+    outline: none !important; }
+  body a {
+    transition: .3s all;
+    color: #fff; }
+    body a:hover {
+      transition: .3s all;
+      color: #fff; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+  body input, body button {
+    outline: none !important;
+    box-shadow: none;
+    transition: .3s all; }
+  body .container {
+    width: 100%;
+    max-width: 1200px; }
+
+.detail-content h2, .detail-content h3, .detail-content h4, .detail-content h5, .detail-content h6, .detail-content ul {
+  margin-bottom: 20px; }
+.detail-content ul {
+  padding-left: 18px; }
+.detail-content p {
+  margin-bottom: 20px; }
+
+.header-user {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  z-index: 2;
+  width: 100%; }
+  .header-user ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header-user ul li {
+      padding: 0 12px; }
+  .header-user a {
+    display: inline-flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    border-radius: 40px;
+    border: 1px solid #fff; }
+    .header-user a.head-register {
+      background: #fff;
+      color: #ce273a; }
+      .header-user a.head-register:hover {
+        background: #ce273a;
+        color: #fff; }
+    .header-user a.head-login {
+      background: transparent;
+      color: #fff; }
+      .header-user a.head-login:hover {
+        background: #ce273a; }
+
+footer {
+  font-weight: 300;
+  position: relative; }
+  footer:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(#1c0004, #1c000400); }
+
+.footer-bot {
+  border-top: 1px solid #5f3f38;
+  padding: 45px 0;
+  position: relative;
+  z-index: 2; }
+  .footer-bot .logo {
+    margin-bottom: 20px; }
+
+.footer-top {
+  padding: 0 0 45px 0;
+  position: relative;
+  z-index: 2; }
+  .footer-top ul {
+    list-style: none; }
+    .footer-top ul a {
+      display: flex;
+      align-items: center; }
+      .footer-top ul a img {
+        margin-right: 6px;
+        position: relative;
+        top: -1px; }
+    .footer-top ul li {
+      margin-bottom: 10px; }
+      .footer-top ul li:last-child {
+        margin-bottom: 0; }
+
+.box-film {
+  padding: 150px 0; }
+
+.item-film {
+  height: 100%;
+  position: relative; }
+  .item-film .avarta {
+    margin-bottom: 30px;
+    overflow: hidden; }
+    .item-film .avarta img {
+      transition: .5s all !important; }
+      .item-film .avarta img:hover {
+        transform: scale(1.05); }
+  .item-film .info a {
+    display: block;
+    font-size: 24px;
+    font-weight: bold; }
+  .item-film .info p {
+    font-weight: 300;
+    margin-top: 6px; }
+  .item-film .practice {
+    background: #ce273a;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 5px;
+    position: absolute;
+    min-width: 50px;
+    line-height: 1.4;
+    padding: 4px 0;
+    top: -25px;
+    left: 10px;
+    z-index: 2;
+    pointer-events: none; }
+    .item-film .practice label {
+      display: block;
+      font-weight: bold;
+      color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
