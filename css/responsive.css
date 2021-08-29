@@ -1,5 +1,8 @@
 
 @media (max-width:  1023px) {
+	header {
+		display: block !important; 
+	}
 	body {
 	    font-size: 14px;
 	}
@@ -94,12 +97,72 @@
 	.footer-top ul.list-mxh li:last-child {
 	    padding-right: 0;
 	}
+	.main-detail .header-user {
+	    display: none;
+	}
+	.item-prac {
+	    padding: 12px 0;
+	}
+
+	.item-prac.d-flex ul li {
+	    padding-right: 10px;
+	}
+
+	.box-info-detail .t-detail {
+	    font-size: 20px;
+	    margin-bottom: 10px;
+	}
+
+	.box-info-detail {
+	    margin-bottom: 20px;
+	}
 	
+}
+
+@media (max-width:  767px) {
+	.caption-info h1 {
+	    font-weight: 500;
+	    font-size: 24px;
+	}
+
+	.content-detail {
+	    padding: 30px 0;
+	}
+
+	.thumbs-film {
+	    display: none;
+	}
+
+	.avr-thumbs img {
+	    min-height: unset;
+	}
+}
+
+@media (max-width: 575px) {
+	.top-practice {
+	    display: block;
+	    margin-bottom: 15px;
+	}
+
+	.top-practice .avr-prac {
+	    margin: 0 0 15px 0;
+	}
 }
 
 @media (max-width:  1023px) and (min-width: 576px) {
 	.list-film .col-md-3:first-child, .list-film .col-md-3:nth-child(2) {
 	    margin-top: 20px;
+	}
+}
+
+@media (max-width:  767px) and (min-width: 576px) {
+	.top-practice {
+	    margin-bottom: 20px;
+	}
+
+	.top-practice .avr-prac {
+	    margin-right: 15px;
+	    flex: 0 0 40%;
 	}
 }
 
