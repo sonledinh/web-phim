@@ -182,6 +182,83 @@ footer {
       .footer-top ul li:last-child {
         margin-bottom: 0; }
 
+.modal-dialog {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: 660px; }
+  .modal-dialog .modal-content {
+    background: transparent;
+    border: 0; }
+  .modal-dialog .modal-body {
+    padding: 0; }
+  @media (max-width: 767px) {
+    .modal-dialog {
+      max-width: 90vw; } }
+
+.content-popup {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fff;
+  color: #3e3e3e; }
+  .content-popup .close {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none; }
+  @media (max-width: 767px) {
+    .content-popup .col-md-6:first-child {
+      display: none; }
+    .content-popup .close {
+      opacity: 1;
+      pointer-events: unset;
+      top: 15px;
+      right: 15px;
+      z-index: 22; } }
+
+.txt-user {
+  padding: 30px 30px 30px 0;
+  font-size: 14px; }
+  @media (max-width: 767px) {
+    .txt-user {
+      padding: 20px; } }
+  .txt-user h3 {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px; }
+
+.form-user .item {
+  margin-bottom: 15px; }
+  .form-user .item:last-child {
+    margin-bottom: 0; }
+  .form-user .item a {
+    color: #ce273a; }
+.form-user .inp_field {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 0 10px; }
+.form-user .reb-user {
+  margin-right: 5px;
+  position: relative;
+  top: 2px; }
+.form-user .btn-user {
+  width: 100%;
+  cursor: pointer;
+  height: 35px;
+  background: #ce273a;
+  border: 1px solid #ce273a;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.5px;
+  border-radius: 5px; }
+  .form-user .btn-user:hover {
+    color: #ce273a;
+    background: #fff; }
+
 .box-film {
   padding: 150px 0; }
 
