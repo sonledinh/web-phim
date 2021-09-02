@@ -25,7 +25,7 @@
 			</div>
 			<div class="caption-detail">
 				<div class="container">
-					<div class="caption-info">
+					<div class="caption-info mw-100">
 						<!-- <h1>Khách sạn Eleon 2 - Tập 50</h1>
 						<div class="desc">
 							Totel Eleon 2
@@ -145,7 +145,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="detail-info">
+				<div class="detail-info mw-100">
 					<div class="box-info-detail">
 						<div class="t-detail">Nội dung phim</div>
 						<p>"Khách sạn Eleon 2" là phần tiếp theo của loạt phim truyền hình nổi tiếng và được yêu thích "Kitchen", được phát trên kênh STS từ 2012 đến 2016. Chúng ta có thể nói rằng đây là phần phụ của bộ phim chuyển thể nhiều phần (phần tiếp theo của một bộ phim nổi tiếng, ảnh hưởng một phần hoặc toàn bộ đến cốt truyện và dàn diễn viên).</p>
@@ -153,7 +153,7 @@
 					</div>
 					<div class="box-info-detail">
 						<div class="t-detail">Trailer</div>
-						<p><img src="images/trailer.jpg" alt=""></p>
+						<p class="text-center"><img src="images/trailer.jpg" alt=""></p>
 					</div>
 				</div>
 				<div class="list-film-other">
