@@ -195,7 +195,7 @@ footer {
     padding: 0; }
   @media (max-width: 767px) {
     .modal-dialog {
-      max-width: 90vw; } }
+      max-width: 90vw !important; } }
 
 .content-popup {
   position: relative;

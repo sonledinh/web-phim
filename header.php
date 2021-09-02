@@ -16,7 +16,7 @@
       <div class="header-user text-center">
          <div class="container">
             <ul>
-               <li><a href="" class="head-register">Đăng ký</a></li>
+               <li><a href="javascript:void(0)" data-toggle="modal" data-target="#model-ads" class="head-register">Đăng ký</a></li>
                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#model-user" class="head-login">Đăng nhập</a></li>
             </ul>
          </div>
@@ -57,6 +57,18 @@
                            </div>
                         </div>
                      </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="modal fade" id="model-ads">
+         <div class="modal-dialog" style="max-width: max-content;">
+            <div class="modal-content">
+               <div class="modal-body">
+                  <div class="content-popup">
+                     <div class="box-ads"><a href=""><img src="images/ads.png" class="img-fluid" alt=""></a></div>
                   </div>
                </div>
             </div>
